@@ -8,4 +8,5 @@ RUN apt-get update && apt-get -y install \
 	ruby-dev \
 	zlib1g-dev \
 	liblzma-dev \
-	build-essential patch
+	build-essential patch \
+	jq
