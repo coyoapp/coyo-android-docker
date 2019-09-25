@@ -10,3 +10,4 @@ RUN apt-get update && apt-get -y install \
 	liblzma-dev \
 	build-essential patch \
 	jq
+RUN gem update --system && gem install bundler
